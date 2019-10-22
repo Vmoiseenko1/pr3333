@@ -62,7 +62,6 @@ factorial = 1
 
 for i in range(1, length + 1):
     factorial *= i
-print(factorial)
 
 denominator = 1
 
@@ -78,7 +77,10 @@ if ke != 0:
     denominator *= ke
 
 if denominator == 1:
-    print(1)
+    if  ka != 0 or kb != 0 or kc != 0 or kd != 0 or ke != 0:
+        print(factorial)
+    else:
+        print(1)
 else:
     p = factorial / denominator  # The num of different words
     print(p)
