@@ -81,4 +81,4 @@ if denominator == 1:
     print(1)
 else:
     p = factorial / denominator  # The num of different words
-print(p)
+    print(p)
